@@ -8,3 +8,12 @@ oc apply -f gitops-og.yaml
 
 oc apply -f gitops-sub.yaml 
 
+$ oc get appproject
+NAME      AGE
+default   3m
+
+$ oc get argocd
+NAME               AGE
+openshift-gitops   5m4s
+
+
